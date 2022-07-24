@@ -100,7 +100,7 @@ function playFlappyBird() {
             bY + bird.height >= pipe[i].y + constant)) ||
         bY + bird.height >= cvs.height - fg.height
       ) {
-        // reload the page --> should display score
+        location.reload();// reload the page --> should display score
       }
 
       if (pipe[i].x == 5) {
@@ -125,6 +125,6 @@ function playFlappyBird() {
     requestAnimationFrame(draw);
   }
 
-  draw();
+  //draw();
   return score;
 }
