@@ -100,7 +100,7 @@ function playFlappyBird() {
             bY + bird.height >= pipe[i].y + constant)) ||
         bY + bird.height >= cvs.height - fg.height
       ) {
-        location.reload(); // reload the page
+        // reload the page --> should display score
       }
 
       if (pipe[i].x == 5) {
