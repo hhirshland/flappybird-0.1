@@ -125,6 +125,6 @@ function playFlappyBird() {
     requestAnimationFrame(draw);
   }
 
-  //draw();
+  draw();
   return score;
 }
